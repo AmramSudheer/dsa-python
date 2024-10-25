@@ -1,0 +1,12 @@
+head ={
+       "value" : 10,
+       "next"  : {
+                   "value" : 20,
+                   "next"  : {
+                               "value" : 30,
+                               "next"  : None
+                   }
+       }
+}
+
+print(head['next'] ['next'] ['value'])
